@@ -1,7 +1,5 @@
-const args = { }
 function combineUsers(...args) {
   const combineObject ={ users: []}
-  let args = i
   for (let i = 0; i < args.length; i++) {
     combineObject.users.push(...args[i])
   } 
